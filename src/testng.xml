@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="rosewholePC" >
+    <listeners>
+        <listener class-name="more.base.TestngListener" />
+
+    </listeners>
+    <test name="version" preserve-order="true">
+
+        <classes>
+            <class name="more.testcases.TestCases">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
